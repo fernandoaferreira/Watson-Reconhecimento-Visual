@@ -3,7 +3,7 @@ var fs = require('fs');
 
 var visualRecognition = new VisualRecognitionV3({
   version: '2018-03-19',
-  api_key: '9d8c81ba63f842b9917223c00790a739af389617'
+  api_key: 'Digite sua API KEY disponivel no painel de controle do IBM Watson'
 });
 
 var images_file = fs.createReadStream('./imgs/foto2.jpg')
